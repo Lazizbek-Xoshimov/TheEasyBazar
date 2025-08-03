@@ -17,9 +17,9 @@
 
 The project is organized according to Clean Architecture:
 - `Domain` - Contains core business models and logic
-- `Application` - Application-specific logic and service interfaces
-- `Infrastructure` - Database context, repositories, and external service implementations
-- `WebApi` - API layer that interacts with clients
+- `Services` - Application-specific logic and service interfaces
+- `Data` - Database context, repositories, and external service implementations
+- `Api` - API layer that interacts with clients
 
 ## 🔧 Getting Started
 1. Configure your SQL Server connection string in `appsettings.json`.
